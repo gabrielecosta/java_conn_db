@@ -1,0 +1,12 @@
+CREATE TABLE impiegato (
+  matricola int NOT NULL AUTO_INCREMENT,
+  nome varchar(75) NOT NULL,
+  cognome varchar(75) NOT NULL,
+  email varchar(75) NOT NULL,
+  passw varchar(75) NOT NULL,
+  stipendio int,
+  PRIMARY KEY (matricola)
+);
+
+DB: azienda
+INSERT INTO impiegato(nome, cognome, email, passw, stipendio) VALUES ("Mario", "Rossi", "mario@rossi.00", "12345", 100);
